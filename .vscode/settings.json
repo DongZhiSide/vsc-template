@@ -1,0 +1,113 @@
+{
+    // git
+    "git.showProgress": true,
+    // scm git 仓库管理界面
+    "scm.repositories.explorer": true,
+    "scm.repositories.selectionMode": "single",
+    // editor
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "editor.minimap.autohide": "mouseover",
+    "editor.minimap.scale": 1,
+    "editor.minimap.size": "proportional",
+    "editor.minimap.sectionHeaderLetterSpacing": 1,
+    "editor.minimap.enabled": true,
+    "editor.wordWrap": "on",
+    "editor.fontSize": 16,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorStyle": "line-thin",
+    "editor.quickSuggestionsDelay": 1000,
+    "editor.tabCompletion": "on",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.multiCursorLimit": 100000,
+    "editor.largeFileOptimizations": false,
+    "editor.minimap.showSlider": "mouseover",
+    // explorer
+    "explorer.compactFolders": false,
+    // [language]
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[yaml]": {
+        "editor.tabSize": 4
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // html
+    "html.format.indentInnerHtml": true,
+    // json
+    "json.schemaDownload.enable": false,
+    // terminal
+    "terminal.integrated.hideOnStartup": "whenEmpty",
+    "terminal.integrated.enableVisualBell": true,
+    "terminal.integrated.mouseWheelZoom": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.suggest.enabled": true,
+    "terminal.integrated.suggest.quickSuggestions": {
+        "commands": "on",
+        "arguments": "on",
+        "unknown": "off"
+    },
+    "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.gpuAcceleration": "on",
+    "terminal.integrated.suggest.showStatusBar": true,
+    // workbench
+    "workbench.panel.showLabels": false,
+    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "workbench.list.horizontalScrolling": true,
+    "workbench.editor.scrollToSwitchTabs": false,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.view.alwaysShowHeaderActions": true,
+    "workbench.editor.openSideBySideDirection": "down",
+    "workbench.tree.indent": 12,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.colorCustomizations": {
+        "tree.indentGuidesStroke": "#9261bc"
+    },
+    // debug
+    "debug.toolBarLocation": "docked",
+    "debug.onTaskErrors": "abort",
+    // files
+    "files.exclude": {
+        "**/.git": false
+    },
+    "files.associations": {
+        "*.json": "jsonc"
+    },
+    // extensions
+    "extensions.ignoreRecommendations": false,
+    // window
+    "window.commandCenter": true,
+    // accessibility
+    "accessibility.signals.terminalBell": {
+        "sound": "on"
+    },
+    //
+    //
+    // extensions settings here =========================
+    // prettier
+    "prettier.tabWidth": 2,
+    "prettier.embeddedLanguageFormatting": "off",
+    "prettier.useTabs": true,
+    // EnglishChineseDictionary
+    "EnglishChineseDictionary.enableHover": true,
+    // markdown
+    "markdown.validate.enabled": false,
+    // extensions settings here =========================
+    //
+    //
+    // update here =========================
+    // update here =========================
+}
