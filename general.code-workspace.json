@@ -46,21 +46,35 @@
         "explorer.compactFolders": false,
         // [language] 语言重载配置
         "[jsonc]": {
+            // editor
             "editor.defaultFormatter": "vscode.json-language-features"
         },
         "[json]": {
+            // editor
             "editor.defaultFormatter": "esbenp.prettier-vscode"
         },
         "[html]": {
+            // editor
             "editor.defaultFormatter": "vscode.html-language-features"
         },
         "[markdown]": {
+            // editor
             "editor.defaultFormatter": "esbenp.prettier-vscode"
         },
         "[yaml]": {
-            "editor.tabSize": 4
+            // editor
+            "editor.tabSize": 4,
+            "editor.insertSpaces": true,
+            "editor.autoIndent": "advanced",
+            "editor.defaultColorDecorators": "never",
+            "editor.quickSuggestions": {
+                "strings": "on"
+            },
+            // diffEditor
+            "diffEditor.ignoreTrimWhitespace": false
         },
         "[css]": {
+            // editor
             "editor.defaultFormatter": "esbenp.prettier-vscode"
         },
         // html
