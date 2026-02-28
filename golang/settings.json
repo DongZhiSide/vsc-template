@@ -1,6 +1,7 @@
 {
     // [language]
     "[go]": {
+        // editor
         "editor.insertSpaces": false,
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
