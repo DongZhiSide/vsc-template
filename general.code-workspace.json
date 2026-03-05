@@ -124,6 +124,7 @@
         "extensions.ignoreRecommendations": false,
         // window
         "window.commandCenter": true,
+        "window.menuBarVisibility": "classic",
         // accessibility
         "accessibility.signals.terminalBell": {
             "sound": "on"
