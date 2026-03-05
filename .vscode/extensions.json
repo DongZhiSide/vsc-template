@@ -5,6 +5,7 @@
         "ms-ceintl.vscode-language-pack-zh-hans",
         "github.github-vscode-theme",
         "yzhang.markdown-all-in-one",
-        "vscode-icons-team.vscode-icons"
+        "vscode-icons-team.vscode-icons",
+        "redjue.git-commit-plugin"
     ]
 }
