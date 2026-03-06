@@ -16,7 +16,8 @@
             "alefragnani.Bookmarks",
             "hediet.vscode-drawio",
             "CodeInChinese.EnglishChineseDictionary",
-            "redjue.git-commit-plugin"
+            "redjue.git-commit-plugin",
+            "yzhang.markdown-all-in-one"
         ]
     },
     "settings": {
