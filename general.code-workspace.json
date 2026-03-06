@@ -17,7 +17,11 @@
             "hediet.vscode-drawio",
             "CodeInChinese.EnglishChineseDictionary",
             "redjue.git-commit-plugin",
-            "yzhang.markdown-all-in-one"
+            "yzhang.markdown-all-in-one",
+            "ms-vscode-remote.remote-ssh",
+            "ms-vscode-remote.remote-ssh-edit",
+            "ms-vscode.remote-explorer",
+            "ms-vscode-remote.remote-containers"
         ]
     },
     "settings": {
