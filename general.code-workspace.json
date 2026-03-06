@@ -47,7 +47,7 @@
         // [language] 语言重载配置
         "[jsonc]": {
             // editor
-            "editor.defaultFormatter": "vscode.json-language-features"
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
         },
         "[json]": {
             // editor
@@ -55,7 +55,7 @@
         },
         "[html]": {
             // editor
-            "editor.defaultFormatter": "vscode.html-language-features"
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
         },
         "[markdown]": {
             // editor
