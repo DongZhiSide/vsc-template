@@ -1,11 +1,13 @@
 {
     "recommendations": [
-        "codeinchinese.englishchinesedictionary",
-        "alefragnani.bookmarks",
-        "ms-ceintl.vscode-language-pack-zh-hans",
+        "esbenp.prettier-vscode",
         "github.github-vscode-theme",
-        "yzhang.markdown-all-in-one",
+        "ms-ceintl.vscode-language-pack-zh-hans",
         "vscode-icons-team.vscode-icons",
-        "redjue.git-commit-plugin"
+        "alefragnani.Bookmarks",
+        "hediet.vscode-drawio",
+        "CodeInChinese.EnglishChineseDictionary",
+        "redjue.git-commit-plugin",
+        "yzhang.markdown-all-in-one"
     ]
 }
