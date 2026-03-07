@@ -54,6 +54,19 @@ golang_extensions = {
     }
 }
 
+golang_launch_key = "golang/launch.txt"
+golang_launch = {
+    golang_launch_key: {
+        "prefix": "gol",
+        "body": [],
+        "description": "生成 golang 调试配置",
+        "exclude": "",
+        "include": ["**/.vscode/launch.json", "**/*.code-workspace"],
+        "isFileTemplate": False,
+        "scope": "jsonc",
+    }
+}
+
 templates.append("python")
 
 python_settings_key = "python/settings.txt"
@@ -77,6 +90,19 @@ python_extensions = {
         "description": "生成 python 扩展",
         "exclude": "",
         "include": ["**/.vscode/extensions.json", "**/*.code-workspace"],
+        "isFileTemplate": False,
+        "scope": "jsonc",
+    }
+}
+
+python_launch_key = "python/launch.txt"
+python_launch = {
+    python_launch_key: {
+        "prefix": "pyl",
+        "body": [],
+        "description": "生成 python 调试配置",
+        "exclude": "",
+        "include": ["**/.vscode/launch.json", "**/*.code-workspace"],
         "isFileTemplate": False,
         "scope": "jsonc",
     }
