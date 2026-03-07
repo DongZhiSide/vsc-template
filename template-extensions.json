@@ -1,0 +1,8 @@
+{
+    // 扩展推荐
+    // string array
+    "recommendations": [],
+    // 不推荐扩展
+    // string array
+    "unwantedRecommendations": []
+}

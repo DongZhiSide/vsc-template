@@ -1,0 +1,10 @@
+{
+    "name": "Debug",
+    "type": "debugpy",
+    "request": "launch",
+    "program": "${file}",
+    "console": "integratedTerminal",
+    "justMyCode": false,
+    "pythonArgs": [],
+    "args": []
+}

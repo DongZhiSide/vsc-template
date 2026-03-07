@@ -1,10 +1,11 @@
 {
+    // ========================= general =========================
     // git
     "git.showProgress": true,
     // scm git 仓库管理界面
     "scm.repositories.explorer": true,
     "scm.repositories.selectionMode": "single",
-    // editor
+    // editor 编辑页面
     "editor.tabSize": 4,
     "editor.detectIndentation": false,
     "editor.minimap.autohide": "mouseover",
@@ -22,32 +23,50 @@
     "editor.multiCursorLimit": 100000,
     "editor.largeFileOptimizations": false,
     "editor.minimap.showSlider": "mouseover",
-    // explorer
+    // explorer 左侧的资源管理器
     "explorer.compactFolders": false,
-    // [language]
+    // [language] 语言重载配置
     "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
+        // editor
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[json]": {
+        // editor
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
+        // editor
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[markdown]": {
+        // editor
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[yaml]": {
-        "editor.tabSize": 4
+        // editor
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.autoIndent": "advanced",
+        "editor.defaultColorDecorators": "never",
+        "editor.quickSuggestions": {
+            "strings": "on"
+        },
+        // diffEditor
+        "diffEditor.ignoreTrimWhitespace": false
     },
     "[css]": {
+        // editor
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[snippets]": {
+        // editor
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     // html
     "html.format.indentInnerHtml": true,
     // json
     "json.schemaDownload.enable": false,
-    // terminal
+    // terminal 终端
     "terminal.integrated.hideOnStartup": "whenEmpty",
     "terminal.integrated.enableVisualBell": true,
     "terminal.integrated.mouseWheelZoom": true,
@@ -63,7 +82,7 @@
     "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.gpuAcceleration": "on",
     "terminal.integrated.suggest.showStatusBar": true,
-    // workbench
+    // workbench vscode 整体的配置
     "workbench.panel.showLabels": false,
     "workbench.colorTheme": "GitHub Dark Dimmed",
     "workbench.list.horizontalScrolling": true,
@@ -84,19 +103,21 @@
         "**/.git": false
     },
     "files.associations": {
-        "*.json": "jsonc"
+        "*.json": "jsonc",
+        "*.toml": "ini"
     },
     // extensions
     "extensions.ignoreRecommendations": false,
     // window
     "window.commandCenter": true,
+    "window.menuBarVisibility": "classic",
     // accessibility
     "accessibility.signals.terminalBell": {
         "sound": "on"
     },
     //
     //
-    // extensions settings here =========================
+    // =================== extensions settings ===================
     // prettier
     "prettier.tabWidth": 2,
     "prettier.embeddedLanguageFormatting": "off",
@@ -105,9 +126,27 @@
     "EnglishChineseDictionary.enableHover": true,
     // markdown
     "markdown.validate.enabled": false,
+    // hediet
+    "hediet.vscode-drawio.appearance": "dark",
+    "hediet.vscode-drawio.resizeImages": null,
+    // =================== extensions settings ===================
+    //
+    //
+    // ========================= general =========================
     // extensions settings here =========================
-    //
-    //
-    // update here =========================
-    // update here =========================
+    // python
+    // "python.defaultInterpreterPath": "python",
+    "python.REPL.sendToNativeREPL": false,
+    "python.analysis.typeCheckingMode": "off",
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    // black-formatter
+    "black-formatter.args": [
+        "--line-length=90"
+    ]
+    // extensions settings here =========================
 }

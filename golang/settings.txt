@@ -1,0 +1,20 @@
+// [language]
+"[go]": {
+    // editor
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "editor.wordWrap": "off"
+},
+//
+//
+// extensions settings here =========================
+// go
+"go.useLanguageServer": true,
+"go.toolsManagement.checkForUpdates": "local",
+"go.testFlags": [
+    "-count=1"
+],
+// extensions settings here =========================
