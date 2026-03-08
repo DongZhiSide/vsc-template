@@ -17,7 +17,7 @@ def make_snippet_data(key: str) -> list:
     with open(read_path, "r", encoding="utf-8") as f:
         for line in f:
             # 转义反斜杠和双引号
-            escaped = line.replace("\\", "\\\\").replace('"', '\"').replace('$', '\$').rstrip("\n")
+            escaped = line.replace("\\", "\\\\").replace('"', '\"').replace('$', '\\$').rstrip("\n")
             body_lines.append(escaped)
     return body_lines
 
