@@ -119,6 +119,10 @@ def main():
         golang_extensions[golang_extensions_key]["body"] = make_snippet_data(
             golang_extensions_key
         )
+        golang_launch[golang_launch_key]["body"] = make_snippet_data(
+            golang_launch_key
+        )
+        objs.update(golang_launch)
         objs.update(golang_extensions)
         objs.update(golang_settings)
     elif key == "python":
@@ -128,6 +132,10 @@ def main():
         python_extensions[python_extensions_key]["body"] = make_snippet_data(
             python_extensions_key
         )
+        python_launch[python_launch_key]["body"] = make_snippet_data(
+            python_launch_key
+        )
+        objs.update(python_launch)
         objs.update(python_extensions)
         objs.update(python_settings)
 
