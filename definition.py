@@ -44,7 +44,7 @@ golang_settings = {
 golang_extensions_key = "golang/extensions.txt"
 golang_extensions = {
     golang_extensions_key: {
-        "prefix": "gol",
+        "prefix": "goe",
         "body": [],
         "description": "生成 golang 扩展",
         "exclude": "",
