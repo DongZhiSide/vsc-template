@@ -5,5 +5,9 @@
     "mode": "auto",
     "program": "${file}",
     "console": "integratedTerminal",
-    "args": []
+    "args": [],
+    "asRoot": true,
+	"env": {
+		"PATH": "/usr/local/go/bin:${env:PATH}"
+	}
 },
