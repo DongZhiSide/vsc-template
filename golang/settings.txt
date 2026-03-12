@@ -17,4 +17,7 @@
 "go.testFlags": [
     "-count=1"
 ],
+"go.toolsEnvVars": {
+    "GOSUMDB": "sum.golang.org"
+}
 // extensions settings here =========================
